@@ -31,6 +31,9 @@
 #define MIN_CHINESE 0x4E00
 #define MAX_CHINESE 0x9FA5
 
+// u4e00-u9fa5 (中文)
+// u0800-u4e00 (日文)
+
 // Maximum 30 * 0.7 = 21M words in the vocabulary
 const int vocab_hash_size = 30000000;
 
